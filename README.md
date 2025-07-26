@@ -6,18 +6,18 @@ Python学習用のメモとコード記録
 ## 環境構築(Macの場合)
 
 1. Homebrewのインストール(インストールされてない場合)
-https://brew.sh/ja/
+[Homebrew](https://brew.sh/ja/)
 
 2. pythonのインストール
-    ```
+    ```bash
     brew install python3
     ```
 
 3. バージョン確認
-    ```
+    ```bash
     python3 --version
     ```
 4. シンボリックリンク作成
-    ```
+    ```bash
     sudo ln -s /opt/homebrew/bin/python3 /usr/local/bin/python
     ```
