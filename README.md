@@ -11,6 +11,8 @@ Python学習用のメモとコード記録
 2. pythonのインストール
     ```bash
     brew install python3
+
+    brew --version
     ```
 
 3. バージョン確認
