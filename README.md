@@ -7,6 +7,9 @@ Python学習用のメモとコード記録
 
 1. Homebrewのインストール(インストールされてない場合)
 [Homebrew](https://brew.sh/ja/)
+    ```bash
+    brew --version
+    ```
 
 2. pythonのインストール
     ```bash
