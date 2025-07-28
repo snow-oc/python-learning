@@ -1,3 +1,4 @@
+# 練習問題4
 x = 7
 y = 3
 # x と y を使って、以下の結果を表示してください：
@@ -7,4 +8,5 @@ y = 3
 
 print(x / y)
 print(x % y)
-print(int(x / y))
+# print(int(x / y))
+print(x // y)
