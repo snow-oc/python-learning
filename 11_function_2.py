@@ -26,3 +26,17 @@ def total(*numbers):
 
 print(total(1, 2, 3))
 print(total(10, 20, 30, 40))
+
+# --- 課題: 複数のプロフィール情報を受け取って表示する関数 show_profile を作ろう ---
+# ヒント: **kwargs を使うよ
+# 実行例:
+# show_profile(name="Tanaka", age=25, hobby="ゲーム")
+# → name: Tanaka
+#   age: 25
+#   hobby: ゲーム
+
+def show_profile(**kwargs):
+    for key, value in kwargs.items():
+        print(key, ":", value)
+
+show_profile(name="Tanaka", age=25, hobby="ゲーム")
